@@ -403,7 +403,7 @@ app.post("/api/ai/chat", async (req, res): Promise<any> => {
           timestamp: new Date()
         });
       } catch (geminiErr: any) {
-        console.warn("Gemini Live API failed (possible leaked key or blocked request):", geminiErr.message || geminiErr);
+        console.info("Gemini API key is unconfigured, leaked, or limits exceeded. Falling back to the Sandbox Simulation gracefully.");
         fallbackToSimulation = true;
       }
     }
