@@ -1,0 +1,6 @@
+{
+  "name": "ShopZone",
+  "description": "A premium e-commerce Single Page Application with dynamic product catalogs, guest authentication, persistent global cart, and protected checkout routing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
