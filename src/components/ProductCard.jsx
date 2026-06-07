@@ -35,7 +35,7 @@ export const ProductCard = ({ product }) => {
         {/* Quick Add Button */}
         <button
           onClick={handleQuickAdd}
-          className="absolute bottom-4 right-4 bg-slate-950 hover:bg-slate-900 text-[#D4FC79] p-3 rounded-full opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-md focus:outline-none shrink-0"
+          className="absolute bottom-4 right-4 bg-slate-950 hover:bg-slate-900 text-[#D4FC79] p-3 rounded-full opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-md focus:outline-none shrink-0 cursor-pointer"
           title="Add to Cart"
         >
           <ShoppingCart className="w-3.5 h-3.5" />

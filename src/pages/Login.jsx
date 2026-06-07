@@ -57,7 +57,7 @@ export const Login = () => {
         await registerUser(name, email, password);
         
         // Show clean success message instead of auto-logging in!
-        setSuccessMessage('Congratulations! Real PostgreSQL account successfully created. You can log in now.');
+        setSuccessMessage('Account created successfully. Please login.');
         setIsSignup(false); // Shift the UI tab/view to log in mode
         setPassword('');
         setConfirmPassword('');
